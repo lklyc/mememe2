@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF1D9B381BDC366600D62EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1D9B371BDC366600D62EA3 /* AppDelegate.swift */; };
+		AF1D9B3A1BDC366600D62EA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1D9B391BDC366600D62EA3 /* ViewController.swift */; };
+		AF1D9B3D1BDC366600D62EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1D9B3B1BDC366600D62EA3 /* Main.storyboard */; };
+		AF1D9B3F1BDC366600D62EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1D9B3E1BDC366600D62EA3 /* Assets.xcassets */; };
+		AF1D9B421BDC366600D62EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1D9B401BDC366600D62EA3 /* LaunchScreen.storyboard */; };
+		AF1D9B4D1BDC366600D62EA3 /* memezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1D9B4C1BDC366600D62EA3 /* memezTests.swift */; };
+		AF1D9B581BDC366600D62EA3 /* memezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1D9B571BDC366600D62EA3 /* memezUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF1D9B491BDC366600D62EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1D9B2C1BDC366600D62EA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF1D9B331BDC366600D62EA3;
+			remoteInfo = memez;
+		};
+		AF1D9B541BDC366600D62EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1D9B2C1BDC366600D62EA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF1D9B331BDC366600D62EA3;
+			remoteInfo = memez;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF1D9B341BDC366600D62EA3 /* memez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1D9B371BDC366600D62EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF1D9B391BDC366600D62EA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF1D9B3C1BDC366600D62EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF1D9B3E1BDC366600D62EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF1D9B411BDC366600D62EA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF1D9B431BDC366600D62EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1D9B481BDC366600D62EA3 /* memezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memezTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1D9B4C1BDC366600D62EA3 /* memezTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memezTests.swift; sourceTree = "<group>"; };
+		AF1D9B4E1BDC366600D62EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1D9B531BDC366600D62EA3 /* memezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1D9B571BDC366600D62EA3 /* memezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memezUITests.swift; sourceTree = "<group>"; };
+		AF1D9B591BDC366600D62EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF1D9B311BDC366600D62EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1D9B451BDC366600D62EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1D9B501BDC366600D62EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF1D9B2B1BDC366600D62EA3 = {
+			isa = PBXGroup;
+			children = (
+				AF1D9B361BDC366600D62EA3 /* memez */,
+				AF1D9B4B1BDC366600D62EA3 /* memezTests */,
+				AF1D9B561BDC366600D62EA3 /* memezUITests */,
+				AF1D9B351BDC366600D62EA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF1D9B351BDC366600D62EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D9B341BDC366600D62EA3 /* memez.app */,
+				AF1D9B481BDC366600D62EA3 /* memezTests.xctest */,
+				AF1D9B531BDC366600D62EA3 /* memezUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF1D9B361BDC366600D62EA3 /* memez */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D9B371BDC366600D62EA3 /* AppDelegate.swift */,
+				AF1D9B391BDC366600D62EA3 /* ViewController.swift */,
+				AF1D9B3B1BDC366600D62EA3 /* Main.storyboard */,
+				AF1D9B3E1BDC366600D62EA3 /* Assets.xcassets */,
+				AF1D9B401BDC366600D62EA3 /* LaunchScreen.storyboard */,
+				AF1D9B431BDC366600D62EA3 /* Info.plist */,
+			);
+			path = memez;
+			sourceTree = "<group>";
+		};
+		AF1D9B4B1BDC366600D62EA3 /* memezTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D9B4C1BDC366600D62EA3 /* memezTests.swift */,
+				AF1D9B4E1BDC366600D62EA3 /* Info.plist */,
+			);
+			path = memezTests;
+			sourceTree = "<group>";
+		};
+		AF1D9B561BDC366600D62EA3 /* memezUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D9B571BDC366600D62EA3 /* memezUITests.swift */,
+				AF1D9B591BDC366600D62EA3 /* Info.plist */,
+			);
+			path = memezUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF1D9B331BDC366600D62EA3 /* memez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1D9B5C1BDC366600D62EA3 /* Build configuration list for PBXNativeTarget "memez" */;
+			buildPhases = (
+				AF1D9B301BDC366600D62EA3 /* Sources */,
+				AF1D9B311BDC366600D62EA3 /* Frameworks */,
+				AF1D9B321BDC366600D62EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = memez;
+			productName = memez;
+			productReference = AF1D9B341BDC366600D62EA3 /* memez.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF1D9B471BDC366600D62EA3 /* memezTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1D9B5F1BDC366600D62EA3 /* Build configuration list for PBXNativeTarget "memezTests" */;
+			buildPhases = (
+				AF1D9B441BDC366600D62EA3 /* Sources */,
+				AF1D9B451BDC366600D62EA3 /* Frameworks */,
+				AF1D9B461BDC366600D62EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF1D9B4A1BDC366600D62EA3 /* PBXTargetDependency */,
+			);
+			name = memezTests;
+			productName = memezTests;
+			productReference = AF1D9B481BDC366600D62EA3 /* memezTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF1D9B521BDC366600D62EA3 /* memezUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1D9B621BDC366600D62EA3 /* Build configuration list for PBXNativeTarget "memezUITests" */;
+			buildPhases = (
+				AF1D9B4F1BDC366600D62EA3 /* Sources */,
+				AF1D9B501BDC366600D62EA3 /* Frameworks */,
+				AF1D9B511BDC366600D62EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF1D9B551BDC366600D62EA3 /* PBXTargetDependency */,
+			);
+			name = memezUITests;
+			productName = memezUITests;
+			productReference = AF1D9B531BDC366600D62EA3 /* memezUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF1D9B2C1BDC366600D62EA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Kenny Leung";
+				TargetAttributes = {
+					AF1D9B331BDC366600D62EA3 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					AF1D9B471BDC366600D62EA3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = AF1D9B331BDC366600D62EA3;
+					};
+					AF1D9B521BDC366600D62EA3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = AF1D9B331BDC366600D62EA3;
+					};
+				};
+			};
+			buildConfigurationList = AF1D9B2F1BDC366600D62EA3 /* Build configuration list for PBXProject "memez" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF1D9B2B1BDC366600D62EA3;
+			productRefGroup = AF1D9B351BDC366600D62EA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF1D9B331BDC366600D62EA3 /* memez */,
+				AF1D9B471BDC366600D62EA3 /* memezTests */,
+				AF1D9B521BDC366600D62EA3 /* memezUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF1D9B321BDC366600D62EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1D9B421BDC366600D62EA3 /* LaunchScreen.storyboard in Resources */,
+				AF1D9B3F1BDC366600D62EA3 /* Assets.xcassets in Resources */,
+				AF1D9B3D1BDC366600D62EA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1D9B461BDC366600D62EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1D9B511BDC366600D62EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF1D9B301BDC366600D62EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1D9B3A1BDC366600D62EA3 /* ViewController.swift in Sources */,
+				AF1D9B381BDC366600D62EA3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1D9B441BDC366600D62EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1D9B4D1BDC366600D62EA3 /* memezTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1D9B4F1BDC366600D62EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1D9B581BDC366600D62EA3 /* memezUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF1D9B4A1BDC366600D62EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF1D9B331BDC366600D62EA3 /* memez */;
+			targetProxy = AF1D9B491BDC366600D62EA3 /* PBXContainerItemProxy */;
+		};
+		AF1D9B551BDC366600D62EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF1D9B331BDC366600D62EA3 /* memez */;
+			targetProxy = AF1D9B541BDC366600D62EA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF1D9B3B1BDC366600D62EA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1D9B3C1BDC366600D62EA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF1D9B401BDC366600D62EA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1D9B411BDC366600D62EA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF1D9B5A1BDC366600D62EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF1D9B5B1BDC366600D62EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF1D9B5D1BDC366600D62EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = memez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = klyc.memez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF1D9B5E1BDC366600D62EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = memez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = klyc.memez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF1D9B601BDC366600D62EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = memezTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = klyc.memezTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memez.app/memez";
+			};
+			name = Debug;
+		};
+		AF1D9B611BDC366600D62EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = memezTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = klyc.memezTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memez.app/memez";
+			};
+			name = Release;
+		};
+		AF1D9B631BDC366600D62EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = memezUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = klyc.memezUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = memez;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AF1D9B641BDC366600D62EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = memezUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = klyc.memezUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = memez;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF1D9B2F1BDC366600D62EA3 /* Build configuration list for PBXProject "memez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1D9B5A1BDC366600D62EA3 /* Debug */,
+				AF1D9B5B1BDC366600D62EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1D9B5C1BDC366600D62EA3 /* Build configuration list for PBXNativeTarget "memez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1D9B5D1BDC366600D62EA3 /* Debug */,
+				AF1D9B5E1BDC366600D62EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF1D9B5F1BDC366600D62EA3 /* Build configuration list for PBXNativeTarget "memezTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1D9B601BDC366600D62EA3 /* Debug */,
+				AF1D9B611BDC366600D62EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF1D9B621BDC366600D62EA3 /* Build configuration list for PBXNativeTarget "memezUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1D9B631BDC366600D62EA3 /* Debug */,
+				AF1D9B641BDC366600D62EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF1D9B2C1BDC366600D62EA3 /* Project object */;
+}
