@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate {
+class CreateMemeViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate {
 
     @IBOutlet weak var pickedImage: UIImageView!
     @IBOutlet weak var cameraButton: UIBarButtonItem!
@@ -137,24 +137,26 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         let meme = Meme(topText: topText.text, bottomText: bottomText.text, image:pickedImage.image, memedImage: generateMemedImage())
         
-        let object = UIApplication.sharedApplication().delegate
-        let appDelegate = object as! AppDelegate
-        appDelegate.memes.append(meme)
-        
         let controller = UIActivityViewController(activityItems: [meme.memedImage!], applicationActivities: nil)
         
         func callBack(activityType: String?, completed: Bool, returnedItems: [AnyObject]?, activityError: NSError?) -> Void {
             // why would i want to save my meme here?
             // the activity vc is automatically dimissed
             // for now, I'll just get the nav bar to reappear
-            navBar.hidden = false
             
-            let alert = UIAlertController(title: "MemeMe 1.0", message: "Done!", preferredStyle: UIAlertControllerStyle.Alert)
-            let action = UIAlertAction(title: "ok", style: UIAlertActionStyle.Default) { (UIAlertAction) -> Void in
-                self.dismissViewControllerAnimated(true, completion: nil)
-            }
-            alert.addAction(action)
-            self.presentViewController(alert, animated: true, completion: nil)
+//            let alert = UIAlertController(title: "MemeMe 1.0", message: "Done!", preferredStyle: UIAlertControllerStyle.Alert)
+//            let action = UIAlertAction(title: "ok", style: UIAlertActionStyle.Default) { (UIAlertAction) -> Void in
+//                self.dismissViewControllerAnimated(true, completion: nil)
+//            }
+//            alert.addAction(action)
+//            self.presentViewController(alert, animated: true, completion: nil)
+            
+            let object = UIApplication.sharedApplication().delegate
+            let appDelegate = object as! AppDelegate
+            appDelegate.memes.append(meme)
+            
+            navBar.hidden = false
+            topBar.hidden = false
             
         }
         
@@ -162,8 +164,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         self.presentViewController(controller, animated: true, completion: nil)
         
-        navBar.hidden = false
-        topBar.hidden = false
     }
     
     func generateMemedImage() -> UIImage {
@@ -179,6 +179,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         topText.text = "TOP"
         bottomText.text = "BOTTOM"
         pickedImage.image = UIImage(named:  "initial.png")
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
 
 }
